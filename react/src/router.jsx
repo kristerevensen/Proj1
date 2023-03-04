@@ -1,14 +1,14 @@
 import { createBrowserRouter, Navigate, NavigationType } from "react-router-dom";
-import Campaigns from "./views/campaigns/index";
+import Campaigns from "./views/campaigns/Index";
 import Dashboard from "./views/Dashboard";
 import Growth from "./views/growth/index";
-import User from "./views/User";
+import User from "./views/user/Index";
 import Login from "./views/Login";
 import Signup from "./views/Signup";
 import GuestLayout from "./components/GuestLayout";
 import DefaultLayout from "./components/DefaultLayout";
 import Projects from "./views/projects/index";
-import Settings from "./views/Settings";
+import Settings from "./views/user/Settings";
 import Pages from "./views/pages/index";
 import Links from "./views/campaigns/Links";
 import NewCampaign from "./views/campaigns/NewCampaign";
